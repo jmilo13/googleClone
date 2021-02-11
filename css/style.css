@@ -119,13 +119,16 @@ main .principal .search-box{
     font-size: 1.6rem;
     
 }
-.principal .search-box .text-form-box :nth-child(3){
+.principal .search-box .text-form-box .mic-icon{
     display: flex;
     cursor: pointer;
     padding: 0 0.8rem;
-    font-size: 1.7rem;
-    color: rgb(66, 133, 244);    
+    height: 1.7rem; 
     margin-top: 0.5rem;
+    background-image: url(/pictures/mic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .principal .search-box .search-buttons{
     display: flex;
