@@ -84,7 +84,11 @@ main .principal .search-box{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%
+    width: 100%;
+}
+main .principal .search-box .text-form-box:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
 }
 .principal .search-box .text-form-box{
     display: flex;
