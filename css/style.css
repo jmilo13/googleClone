@@ -14,9 +14,8 @@ a{
 body{
     display: flex;
     flex-direction: column;
-    height: 140vh;
+    height: 130vh;
     width: 100vw;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -69,8 +68,6 @@ main{
     align-items: center;
     width: 100%;
     justify-content: flex-start;
-    position: relative;
-    top: -9rem;
 }
 main .principal{
     display: flex;
@@ -172,6 +169,8 @@ footer{
     width: 100%;
     flex-wrap: wrap;
     background: #f2f2f2;
+    position: absolute;
+    bottom: -30rem;
 }
 footer a{
     color: rgba(0,0,0,.54);
@@ -215,6 +214,9 @@ footer .final-footer div *{
     }
     main{
      top: -9rem;
+    }
+    footer{
+        bottom: 0rem;
     }
     footer .initial-footer{
         display: block;
